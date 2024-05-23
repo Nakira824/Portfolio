@@ -9,6 +9,7 @@ import git from "../assets/git.png";
 import calc1 from "../assets/calc1.png";
 import calc2 from "../assets/calc2.png";
 import calc3 from "../assets/calc3.png";
+import calc5 from "../assets/calc5.png";
 
 const services = [
   {
@@ -110,6 +111,28 @@ source_deploy_link: "https://calculator-git-main-nakiras-projects.vercel.app/",
   image: calc3,
   source_code_link: "https://github.com/Nakira824/Socials.git",
   source_deploy_link: "https://socials-five-psi.vercel.app/",
-}
+},
+{
+  name: "Weather App",
+  description:
+  "This is a weather app that I built using javascript, reactjs and vite",
+  tags: [
+    {
+      name: "javascript",
+      color: "blue-text-gradient"
+    },
+    {
+      name: "reactjs",
+      color: "green-text-gradient"
+    },
+    {
+      name: "vite",
+      color: "pink-text-gradient"
+    },
+  ],
+  image: calc5,
+  source_code_link: "https://github.com/Nakira824/Weather_app.git",
+  source_deploy_link: "https://weather-app-ecru-five-86.vercel.app/"
+},
 ];
 export { services, technologies, projects };
