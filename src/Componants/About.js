@@ -1,6 +1,6 @@
 import React from "react";
 import { Styles } from "../utils/Style";
-import Resume from "../assets/Resume.pdf";
+import NakiraAshworth from "../assets/NakiraAshworth.pdf";
 import { TiArrowDownOutline } from "react-icons/ti"
 import Profile from '../assets/profile.png';
 import "../App.css";
@@ -24,8 +24,8 @@ Nakira
     <br/>
 <div className="w-[14rem]" >
         <a
-        href={Resume}
-        download="Resume"
+        href={NakiraAshworth}
+        download="NakiraAshworth"
         target="_blank"
         rel="noreferrer"
         >
